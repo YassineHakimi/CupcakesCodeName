@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ProductDetail" cloudDestinationProperty="ProductDetail" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollableY="true" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" focusable="false" snapToGrid="false" >
+      <layoutConstraint value="Center" />
+      <custom name="image" type="com.codename1.ui.Image" value="plc.jpg" />
+    </component>
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" scrollVisible="false" layout="GridLayout" gridLayoutRows="3" gridLayoutColumns="2" >
+      <layoutConstraint value="North" />
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="Name" verticalAlignment="4" >
+      </component>
+      <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="Price" >
+      </component>
+      <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Rating" >
+      </component>
+      <component type="Label" name="Label3" cloudDestinationProperty="Label3" text="Remise" >
+      </component>
+      <component type="Label" name="Label4" cloudDestinationProperty="Label4" text="Description" >
+      </component>
+    </component>
+  </component>
+</component>
